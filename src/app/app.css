@@ -1,0 +1,18 @@
+:host{
+    display:block;
+}
+
+.landing-container{
+    text-align:center;
+    margin-top:100px;
+}
+
+h1{
+    font-size:3rem;
+margin-bottom:1rem;
+}
+
+p{
+    font-size:1.2rem;
+    margin-bottom:2rem;
+}
