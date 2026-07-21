@@ -1,9 +1,68 @@
-<main class="landing-container">
-    <h1>WalletWise</h1>
+<nav class="navbar">
+    <h2>WalletWise</h2>
 
-    <p>Your Personal Finance Companion</p>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
 
+        <button mat-raised-button color="primary">
+            Login
+        </button>
+    </div>
+</nav>
+
+    <section class="hero">
+        <h1>Take Control of Your Money</h1>
+        <p>
+            Track your income, manage your expenses,and achieve your
+            financial goals with confidence.
+        </p>
+   
     <button mat-raised-button color="primary">
         Get Started
     </button>
-</main>
+</section>
+
+<section class="features">
+    <h2> Everything you need to manage your money</h2>
+
+    <div class="features-container">
+
+
+        <mat-card class="feature-card">
+           
+            <mat-icon class="feature-icon">credit_card</mat-icon>
+            <mat-card-title>Expenses Tracking </mat-card-title>
+
+            <mat-card-content>
+                Track your spending and understand where your money goes.
+            </mat-card-content>
+   
+        </mat-card>
+       
+
+    <mat-card class="feature-card">
+
+        <mat-icon class="feature-icon">account_balance_wallet</mat-icon>
+
+        <mat-card-title>Budget Planning</mat-card-title>
+
+        <mat-card-content>
+            Create and stay in control of your finances.
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="feature-card">
+        <mat-icon class="feature-icon">savings</mat-icon>
+
+        <mat-card-title>Saving Goals</mat-card-title>
+
+        <mat-card-content>
+            Set savings target and achieve your financial dreams.
+        </mat-card-content>
+    </mat-card>
+
+    </div>
+
+</section>
