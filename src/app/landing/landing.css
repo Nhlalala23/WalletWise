@@ -52,6 +52,7 @@
     display:flex;
     justify-content:center;
     gap: 30px;
+    text-align:center;
 }
 .feature-card{
     width:280px;
