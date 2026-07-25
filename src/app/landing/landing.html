@@ -2,11 +2,13 @@
     <h2>WalletWise</h2>
 
     <div class="nav-links">
-        <a href="#">Home</a>
+        <a routerLink="/">Home</a>
         <a href="#">Features</a>
         <a href="#">About</a>
 
-        <button mat-raised-button color="primary">
+        <button mat-raised-button 
+        color="primary"
+        routerLink ="/login">
             Login
         </button>
     </div>
@@ -19,7 +21,9 @@
             financial goals with confidence.
         </p>
    
-    <button mat-raised-button color="primary">
+    <button mat-raised-button 
+    color="primary"
+    routerLink="/register">
         Get Started
     </button>
 </section>
