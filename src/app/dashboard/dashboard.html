@@ -1,3 +1,17 @@
-<button mat-raise-button color="warn" (click)="logout()">
-  Logout
-</button>
+<div class="dashboard-container">
+    <!-- async subcribes to the Observable -->
+    @if (user$ | async; as user){
+    <h2> Welcome to WalletWise!</h2>
+
+    <p>Logged in as {{user.email}}</p>
+    <p>Email: {{user.email}}</p>
+    <p>User ID: {{user.uid}}</p>
+
+    <button mat-raised-button color="warn" (click)="logout()">
+        Logout
+    </button>
+
+    }
+
+
+</div>
